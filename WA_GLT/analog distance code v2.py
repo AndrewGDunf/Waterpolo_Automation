@@ -28,7 +28,7 @@ while True:
 
     if d0 >= 20 and d0 <= 150:
     	a = a + 1
-        print(a, "value in cm", dist)
+        print(a, "value in cm", d0)
         led.value = True
         sleep(0.1)
         led.value = False
